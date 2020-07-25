@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
-import { HashRouter, Route, BrowserRouter as Routes  } from 'react-router-dom'
+import { Route, BrowserRouter as Routes  } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from './AboutMe'
@@ -9,10 +9,10 @@ import ContactMe from './ContactMe'
 
 function Header(){
 	return(
-    <HashRouter basepath="/">
     <div>
     <div class="image">
     <Routes>
+    {console.log("hii", process.env.PUBLIC_URL)}
       <div>
         <Navbar bg="light" expand="lg">
           <Navbar.Collapse id="basic-navbar-nav">
@@ -33,7 +33,6 @@ function Header(){
     </Routes> 
     </div>
     </div>
-    </HashRouter>
 	)
 }
 
