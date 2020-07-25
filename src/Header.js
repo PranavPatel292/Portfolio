@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
-import { Route, BrowserRouter as Routes  } from 'react-router-dom'
+import { Route, Link, HashRouter as Routes  } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from './AboutMe'
@@ -11,15 +11,15 @@ function Header(){
 	return(
     <div>
     <div class="image">
-    <Routes basename={process.env.PUBLIC_URL}>
+    <Routes>
     {console.log("hii", process.env.PUBLIC_URL)}
       <div>
         <Navbar bg="light" expand="lg">
           <Navbar.Collapse id="basic-navbar-nav">
              <Nav className="mr-auto">
-              <Nav.Link href="/AboutMe" default>About Me</Nav.Link>
-              <Nav.Link href="/Project">Project</Nav.Link>
-              <Nav.Link href="/ContactMe">Contact Me</Nav.Link>
+              <Nav.Link as={Link} to="/AboutMe" default>About Me</Nav.Link>
+              <Nav.Link as={Link} to="/Project">Project</Nav.Link>
+              <Nav.Link as={Link} to="/ContactMe">Contact Me</Nav.Link>
               <Nav.Link href="#">Contact Me 1</Nav.Link>
             </Nav>
             </Navbar.Collapse>
