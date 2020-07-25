@@ -11,7 +11,7 @@ function Header(){
 	return(
     <div>
     <div class="image">
-    <Routes>
+    <Routes basename={process.env.PUBLIC_URL}>
     {console.log("hii", process.env.PUBLIC_URL)}
       <div>
         <Navbar bg="light" expand="lg">
