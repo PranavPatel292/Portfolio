@@ -11,7 +11,8 @@ function Header(){
 	return(
     <div>
     <div class="image">
-      <h1 style={{color:"white"}}>Hii</h1>
+      <h1> hii </h1>
+      <h1> hello </h1>
     </div>
     </div>
 	)
