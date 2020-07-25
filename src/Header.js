@@ -19,6 +19,7 @@ function Header(){
               <Nav.Link href={process.env.PUBLIC_URL + "/AboutMe"} default>About Me</Nav.Link>
               <Nav.Link href={process.env.PUBLIC_URL + "/Project"}>Project</Nav.Link>
               <Nav.Link href={process.env.PUBLIC_URL + "/ContactMe"}>Contact Me</Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "#"}>Contact Me 1</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             </Navbar>
