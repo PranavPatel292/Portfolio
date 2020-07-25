@@ -11,24 +11,7 @@ function Header(){
 	return(
     <div>
     <div class="image">
-    <Routes>
-      <div>
-        <Navbar bg="light" expand="lg">
-          <Navbar.Collapse id="basic-navbar-nav">
-             <Nav className="mr-auto">
-              <Nav.Link href="/AboutMe" default>About Me</Nav.Link>
-              <Nav.Link href="/Project">Project</Nav.Link>
-              <Nav.Link href="/ContactMe">Contact Me</Nav.Link>
-            </Nav>
-            </Navbar.Collapse>
-            </Navbar>
-            <Route path="/Project" component={Project}/>
-            <Route path="/AboutMe" component={AboutMe} />
-            <Route path="/ContactMe" component={ContactMe}/>
-            <Route exact path="/" component={AboutMe}/>
-
-      </div>
-    </Routes> 
+      <h1>Hii</h1>
     </div>
     </div>
 	)
