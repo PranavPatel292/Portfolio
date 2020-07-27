@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 class ProjectCard extends React.Component{
 	render(){
 		return(
-						<Card style={{opacity: '0.9', 'text-align': 'justify', margin: '10px', overflow: 'auto'}} bg='dark' text='white' className='p-3'>
+						<Card style={{opacity: '0.9', 'text-align': 'justify', margin: '10px', overflow: 'hidden'}} bg='dark' text='white' className='p-3'>
 							<Card.Img variant="bottom" src={this.props.proj.image} alt="no_img" className="imageDisplay" />
 							<Card.Body>
 								<Card.Title>{this.props.proj.name}</Card.Title>
