@@ -20,7 +20,6 @@ function Header(){
               <Nav.Link as={Link} to="/AboutMe" default>About Me</Nav.Link>
               <Nav.Link as={Link} to="/Project">Project</Nav.Link>
               <Nav.Link as={Link} to="/ContactMe">Contact Me</Nav.Link>
-              <Nav.Link href="#">Contact Me 1</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             </Navbar>

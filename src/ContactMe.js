@@ -51,7 +51,7 @@ class ContactMe extends React.Component{
 						<ColoredLine color="white" />
 						<Row className="myContainerRow">
 							<Col>
-								<h3 style={{color: "white"}}>For my resume click <a href={Pranav_Resume} download > here </a></h3>
+								<h3 style={{color: "white"}}>For my resume click <a href={Pranav_Resume} download> here </a></h3>
 							</Col>
 						</Row>
 					</Container>
