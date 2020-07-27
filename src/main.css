@@ -22,9 +22,6 @@
 
 }
 
-body{
-  overflow: 'auto'
-}
 
 .imageDisplay{
   height: 300px;
@@ -50,6 +47,7 @@ body{
   margin-left: 350px;
   margin-top: 7px;
   width: 1200px;
+  overflow: 'auto'
 }
 
 .delevloperName{
