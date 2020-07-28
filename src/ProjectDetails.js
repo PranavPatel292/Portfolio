@@ -4,6 +4,7 @@ import projectThird from './projectThird.png'
 import projectForth from './projectForth.png'
 import projectFifth from './projectFifth.png'
 import projectSix from './projectSix.png'
+import projectSeven from './projectSeven.png'
 
 const Project = [
 	{
@@ -57,7 +58,17 @@ const Project = [
 		IEEE_link:""
 	},
 	{
-		key : 6,
+		key: 6,
+		name: "N queen visulaization",
+		video_URL: "https://youtu.be/Z_5XaPIgj1Q",
+		language: "HTML, Vallina JavaScript",
+		image: projectSeven,
+		desc: " This project is indended to visualized the famous N queen problem and written in valilla JavaScript. No need to import any kind of frame work just clone the repo and you are ready to go.",
+		code_demo: "https://github.com/PranavPatel292/n-Queen",
+		IEEE_link: ""
+	},
+	{
+		key : 7,
 		name: "General tree maker",
 		video_URL: "",
 		language: "C",
@@ -65,7 +76,7 @@ const Project = [
 		desc: " Program capable of making a general tree ( A tree with no bounding condition(s) like Binary tree etc. on its childern) was implemented and tested.",
 		code_demo: "https://github.com/PranavPatel292/GeneralTree",
 		IEEE_link:""
-	}
+	},
 ]
 
 export default Project

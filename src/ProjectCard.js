@@ -14,8 +14,8 @@ class ProjectCard extends React.Component{
 								<Card.Text>
 									<b>Used language(s): </b> - <i>{this.props.proj.language}</i>
 								</Card.Text>
-								{this.props.proj.code_demo == '' ? null : <Card.Link href={this.props.proj.code_demo} target="new">Clik here to see code work</Card.Link>}
-								{this.props.proj.video_URL == '' ? null : <Card.Link href={this.props.proj.video_URL} target="new">Click to see video work</Card.Link>}
+								{this.props.proj.code_demo == '' ? null : <Card.Link href={this.props.proj.code_demo} target="_blank">Clik here to see code work</Card.Link>}
+								{this.props.proj.video_URL == '' ? null : <Card.Link href={this.props.proj.video_URL} target="_blank">Click to see video work</Card.Link>}
 							</Card.Body>
 						</Card>
 					
