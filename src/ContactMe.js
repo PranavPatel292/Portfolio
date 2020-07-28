@@ -39,7 +39,7 @@ class ContactMe extends React.Component{
 								<h3>Find me on <a href="https://www.linkedin.com/in/pranavpatel292/" target="_blank" data-toggle="tooltip" title="Linkedin"><img src={linkedin} style={{height: '40px', width: '40px'}} alt="linkdin_logo"/></a></h3>
 							</Col>
 							<Col>
-								<h3>Get in touch me on Gmail at:</h3><h5><b><i id="email_address"><ReactTypingEffect text="pranav.patel292@gmail.com" speed={120} typingDelay={1000} /></i></b></h5>
+								<h3>Get in touch with me on Gmail at:</h3><h5><b><i id="email_address"><ReactTypingEffect text="pranav.patel292@gmail.com" speed={120} typingDelay={1000} /></i></b></h5>
 							</Col>
 						</Row>
 						<ColoredLine color="white" />
