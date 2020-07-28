@@ -6,7 +6,7 @@ class Footer extends React.Component{
 		return(
 			<div className='footer'>
 			
-								<p>Developed and Maintained by: - <p className="delevloperName">Pranav Harendra Patel</p> (Image Credit: - <a href="https://wallpaperplay.com/walls/full/5/9/a/164622.jpg" target='blank'>Wallpaperset</a>) [Note:- May breke down in mobile version, working on it]</p>
+								<p>Developed and Maintained by: - <p className="delevloperName">Pranav Harendra Patel</p> (Image Credit: - <a href="https://wallpaperplay.com/walls/full/5/9/a/164622.jpg" target='blank'>Wallpaperset</a>) [Note:- May brake down in mobile version, working on it]</p>
 							
 			</div>
 		)
