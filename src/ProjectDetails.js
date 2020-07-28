@@ -63,7 +63,7 @@ const Project = [
 		video_URL: "https://youtu.be/Z_5XaPIgj1Q",
 		language: "HTML, Vallina JavaScript",
 		image: projectSeven,
-		desc: " This project is indended to visualized the famous N queen problem and written in valilla JavaScript. No need to import any kind of frame work just clone the repo and you are ready to go.",
+		desc: " The project is intended to visualize the famous N queen problem and written in vanilla JavaScript. No need to import any kind of framework just clone the repo and you are ready to go.",
 		code_demo: "https://github.com/PranavPatel292/n-Queen",
 		IEEE_link: ""
 	},
