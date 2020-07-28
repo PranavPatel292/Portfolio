@@ -36,16 +36,16 @@ class ContactMe extends React.Component{
 					<Container fluid className="myContainer conatcMe">
 						<Row className="myContainerRow">
 							<Col className="linkdinCol imageHover">
-								<h3>Find me on <a href="https://www.linkedin.com/in/pranavpatel292/" target="new" data-toggle="tooltip" title="Linkedin"><img src={linkedin} style={{height: '40px', width: '40px'}} alt="linkdin_logo"/></a></h3>
+								<h3>Find me on <a href="https://www.linkedin.com/in/pranavpatel292/" target="_blank" data-toggle="tooltip" title="Linkedin"><img src={linkedin} style={{height: '40px', width: '40px'}} alt="linkdin_logo"/></a></h3>
 							</Col>
 							<Col>
-								<h3>Message or Email me on Gmail at:</h3><h5><b><i id="email_address"><ReactTypingEffect text="pranav.patel292@gmail.com" speed={120} typingDelay={1000} /></i></b></h5>
+								<h3>Get in touch me on Gmail at:</h3><h5><b><i id="email_address"><ReactTypingEffect text="pranav.patel292@gmail.com" speed={120} typingDelay={1000} /></i></b></h5>
 							</Col>
 						</Row>
 						<ColoredLine color="white" />
 						<Row className="myContainerRow">
 						<Col className="imageHover">
-							<h3 >Find me on <a href="https://github.com/PranavPatel292" target="new" data-toggle="tooltip" title="GitHub"><img src={git} alt="githib logo" style={{height: '40px', width: '40px'}}/></a></h3>
+							<h3 >Find me on <a href="https://github.com/PranavPatel292" target="_blank" data-toggle="tooltip" title="GitHub"><img src={git} alt="githib logo" style={{height: '40px', width: '40px'}}/></a></h3>
 						</Col>
 						</Row>
 						<ColoredLine color="white" />
