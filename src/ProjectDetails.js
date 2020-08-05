@@ -5,7 +5,7 @@ import projectForth from './projectForth.png'
 import projectFifth from './projectFifth.png'
 import projectSix from './projectSix.png'
 import projectSeven from './projectSeven.png'
-
+import projectEight from './projectEight.jpg'
 const Project = [
 	{
 		key : 1,
@@ -77,6 +77,16 @@ const Project = [
 		code_demo: "https://github.com/PranavPatel292/GeneralTree",
 		IEEE_link:""
 	},
+	{
+		key: 8,
+		name: "Linked post schedular",
+		video_URL: "https://www.youtube.com/watch?v=rarGU-HIVpE",
+		language: "NodeJS",
+		image: projectEight,
+		desc: " A NodeJS based prototype system which will allow to post the content at the user specific time interval.",
+		code_demo: "",
+		IEEE_link: ""
+	}
 ]
 
 export default Project
